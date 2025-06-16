@@ -42,31 +42,28 @@ const GridBackground = () => {
 
 export default function Hero() {
   const words = [
-    "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
-    "Learning MARN Stack",
+    "Pull-Stack Developer & Cloud Enthusiast",
+    "Problem Solver ",
     "Linux & GitHub for DevOps Enthusiast",
   ];
 
   const [code] = useState(`
 const profile = {
-    name: 'Nazmul Hossain',
-    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+    name: 'Maybetuandat',
+    title: 'Pull-Stack Developer | Cloud Enthusiast | Problem Solver',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
-        'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'React', 'Spring Boot',  'Express',
+        'MySQL', 'Postgres', 'Kubernetes', 'Docker', 'AWS', 'Git', 'Linux'
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 0.5, 
     hireable: function() {
         return (
             this.hardWorker &&
-            this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.problemSolver
+        
         );
     }
 };
@@ -190,7 +187,7 @@ const profile = {
                     I&apos;m
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Nazmul Hossain
+                      Maybetuandat
                     </span>
                   </span>
                 </h1>
@@ -211,8 +208,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
-                  and coding the future 💻✨
+                Cloud Infrastructure Enthusiast ☁️ | OpenStack & K8s Explorer 🚀 | Building scalable solutions with open-source tools 💻✨
                 </p>
               </div>
 
